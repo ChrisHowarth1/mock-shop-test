@@ -1,6 +1,6 @@
 import './App.css'
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-import { ProductGrid } from './components/ProductGrid';
+import { ProductGrid } from './components/productGrid';
 import { Accordion } from './components/accordion';
 import { Header } from './components/header';
 

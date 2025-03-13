@@ -14,10 +14,6 @@ export interface Product {
           amount: string;
           currencyCode: string;
         };
-        selectedOptions: {
-          name: string;
-          value: string;
-        }
       };
     }>;
   };

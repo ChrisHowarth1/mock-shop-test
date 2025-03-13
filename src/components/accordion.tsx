@@ -12,7 +12,7 @@ const AccordionItem = ({ title, text }: AccordionItemProps) => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="text-left font-bold">{title}</span>
-        <span className="transform transition-transform duration-200 ease-in" style={{ transform: isOpen ? 'rotate(180deg)' : '' }}>
+        <span className="transform transition-transform duration-200 ease-in" style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}>
           ↓
         </span>
       </button>
